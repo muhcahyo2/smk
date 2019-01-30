@@ -1,0 +1,62 @@
+@media only screen and (min-width: 600px) {
+  #brand{
+    padding-left: 30px;
+  }
+main,footer{
+    padding-left: 240px;
+    overflow: hidden;
+  }
+  .brand-logo{
+    margin-left: 20px;
+  }
+}
+
+
+#nav-mobile .collapsible-header{
+  padding-left: 30px;
+}
+#nav-mobile .collapsible-body{
+  pa
+}
+#dd1{
+  min-width: 170px;
+}
+#nav-mobile{
+  width: 240px;
+  top: 65px;
+  overflow: hidden;
+  z-index: 999;
+  will-change: left;
+  border: none;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+.sidenav-overlay{
+  background: rgba(0, 0, 0, 0);
+}
+.user-detil{
+  background: url('../user-profile-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-image: url(''); */
+  /* height: 60px; */
+  padding: 15px 0 0 15px;
+  margin-bottom: 15px;
+}
+.user-detil p{
+  padding: 0;
+  padding-left: 15px;
+  color: white;
+  margin: 0;
+  margin-top: -15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #nav-mobile{
+    top: 58px;
+  }
+}
