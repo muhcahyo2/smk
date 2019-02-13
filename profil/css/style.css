@@ -26,8 +26,11 @@ body{
   overflow: hidden;
 }
 .thumbnail:hover{
+  cursor: zoom-in;
+}
+.thumbnail:active{
   transition: 100ms;
-  transform: scale(1.15);
+  transform: scale(1.25);
   margin: 0 auto;
   /* position: fixed; */
 }
