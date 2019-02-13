@@ -1,6 +1,10 @@
 $(document).ready(function(){
   // $(".content").fadeIn(1000);
   $(".preloader").fadeOut(5000);
+  $('.images').elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair",
+  });
 });
 $(document).ready(function () {
   $('body').scrollspy({ target: ".navbar", offset: 50 });
@@ -25,5 +29,5 @@ $(document).ready(function () {
         window.location.hash = hash;
       });
     } // End if
-  });
+  }); 
 });

@@ -22,8 +22,13 @@ body{
 #gallery,#about,#kontak,#top{
   padding-top: 60px;
 }
+.thumbnail{
+  overflow: hidden;
+}
 .thumbnail:hover{
-  width: 110%;
+  transition: 100ms;
+  transform: scale(1.15);
+  margin: 0 auto;
   /* position: fixed; */
 }
 #footer{
