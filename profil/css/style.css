@@ -19,7 +19,9 @@ body{
 #gallery img{
   position: relative;
 }
-
+#gallery,#about,#kontak,#top{
+  padding-top: 60px;
+}
 .thumbnail:hover{
   width: 110%;
   /* position: fixed; */
